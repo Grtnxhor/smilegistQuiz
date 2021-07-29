@@ -614,19 +614,20 @@ Main Banner
 
 .slider-area {
     padding-bottom: 100px;
-    padding-top: 180px;
+    padding-top: 100px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-area {
-        padding-bottom: 50px
+        padding-bottom: 50px;
+        padding-top: 70px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .slider-area {
         padding-bottom: 50px;
-        padding-top: 50px
+        padding-top: 125px
     }
 }
 
@@ -638,7 +639,8 @@ Main Banner
 }
 
 .slider-area.slider-area2 {
-    padding-bottom: 50px
+    padding-bottom: 50px;
+    padding-top: 50px
 }
 
 @media (max-width: 575px) {
@@ -672,7 +674,6 @@ Main Banner
 .slider-area .single-slider .slider-cap-wrapper .hero-img {
     width: 51%;
     border-radius: 50%;
-    object-fit: cover;
     overflow: hidden
 }
 
@@ -707,7 +708,8 @@ Main Banner
 }
 
 .slider-area .single-slider .slider-cap-wrapper .hero-img img {
-    width: 100%
+    width: 100%;
+    height: 400px;
 }
 
 .slider-area .single-slider .slider-cap-wrapper .hero-caption {
